@@ -16,7 +16,7 @@ function removeElement(toRemove){
 }
   return (
     <div > 
-      <div style={{backgroundColor:'white',padding:'40px',borderRadius:'10px'}}>  
+      <div style={{backgroundColor:'white',padding:'40px',borderRadius:'5px'}}>  
         <h1 style={{color:'black'}}>TO-DO List</h1>
         <input style={{backgroundColor:'darkblue',padding:'20px',borderRadius:'5px'}} onChange={(e)=>{setValue(e.target.value)}} value={value} placeholder='Enter your task'></input>
 
